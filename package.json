@@ -1,0 +1,33 @@
+{
+    "name": "graphql-deal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "node_modules/.bin/tsc -w",
+        "dev": "nodemon dist/index.js",
+        "start": "node dist/index.js",
+        "start1": "node_modules/.bin/ts-node server/src/index.ts",
+        "dev2": "nodemon --exec node_modules/.bin/ts-node server/src/index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^14.11.1",
+        "apollo-server-express": "^2.17.0",
+        "express": "^4.17.1",
+        "graphql": "^15.3.0",
+        "mysql2": "^2.2.1",
+        "reflect-metadata": "^0.1.13",
+        "ts-node": "^9.0.0",
+        "type-graphql": "^1.0.0",
+        "typeorm": "^0.2.26",
+        "typescript": "^4.0.3"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.8",
+        "nodemon": "^2.0.4"
+    }
+}
