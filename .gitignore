@@ -107,4 +107,4 @@ dist
 
 
 
-server/ormconfig.json
+ormconfig.json
